@@ -6,7 +6,7 @@ Algoritmo SumaDeMatrices
     Dimension matriz2[2,2]
     Dimension matrizSuma[2,2]
 	
-    // Cargar la primera matriz
+  
     Escribir "Ingrese los valores para la matriz 1:"
     Para i <- 0 Hasta 1
         Para j <- 0 Hasta 1
@@ -15,7 +15,7 @@ Algoritmo SumaDeMatrices
         FinPara
     FinPara
 	
-    // Cargar la segunda matriz
+   
     Escribir "Ingrese los valores para la matriz 2:"
     Para i <- 0 Hasta 1
         Para j <- 0 Hasta 1
@@ -24,20 +24,20 @@ Algoritmo SumaDeMatrices
         FinPara
     FinPara
 	
-    // Sumar ambas matrices
+  
     Para i <- 0 Hasta 1
         Para j <- 0 Hasta 1
             matrizSuma[i,j] <- matriz1[i,j] + matriz2[i,j]
         FinPara
     FinPara
 	
-    // Mostrar resultado
+   
     Escribir "La matriz suma es:"
     Para i <- 0 Hasta 1
         Para j <- 0 Hasta 1
             Escribir Sin Saltar matrizSuma[i,j], "  "
         FinPara
-        Escribir "" // Salto de línea por fila
+        Escribir "" 
     FinPara
 
 	
